@@ -4,6 +4,9 @@
 try:
     import labutils 
     labutils.send_on_create_analytics(kwargs['node'])
-    
 except:
     pass
+    
+node = kwargs['node']
+node.setComment("Use Labs Volume Adjust Look instead. To be removed in Houdini 20.")
+node.setGenericFlag(hou.nodeFlag.DisplayComment, True)

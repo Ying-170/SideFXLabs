@@ -1,0 +1,14 @@
+Operator:     labs::edge_group_to_polylines::1.0
+Label:        Labs Edge Group to Polylines
+Path:         oplib:/labs::Sop/edge_group_to_polylines::1.0?labs::Sop/edge_group_to_polylines::1.0
+Icon:         SOP_convertline
+Table:        Sop
+License:      
+Extra:        
+User:         
+Inputs:       1 to 1
+Subnet:       true
+Python:       false
+Empty:        false
+Modified:     Sat Jun 11 21:34:58 2022
+
